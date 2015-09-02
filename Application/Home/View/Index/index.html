@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>fis3-thinkphp DEMO</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <!-- 使用modjs作为资源加载器 -->
+    <fis:framework name="static/js/mod.js" ></fis:framework>
+    
+    <!-- 标记css输出位置 -->
+    <!--[FIS_CSS_LINKS_HOOK]-->
+
+
+    <!-- 加载同步的css -->
+    <link href="/public/static/css/tooplate_style.css" rel="stylesheet"/>
+    <link href="/public/static/css/coda-slider.css" rel="stylesheet" />
+
+    <!-- 加载同步的js -->
+    <script src="/public/static/js/jquery-1.2.6.js" ></script>
+    <script src="/public/static/js/jquery.easing.1.3.js" ></script>
+    
+</head>
+<body>
+  <div id="slider">
+      <div id="tooplate_wrapper">
+
+          <fis:widget name="widget/sidebar/sidebar.html"></fis:widget>
+      
+          <div id="content">
+            <div class="scroll">
+              <div class="scrollContainer">
+
+                <fis:widget name="widget/home/home.html" title="FIS3 纯php解决方案DEMO"></fis:widget>
+
+                <fis:widget name="widget/about/about.html"></fis:widget>
+
+                <fis:widget name="widget/service/service.html"></fis:widget>
+
+                <fis:widget name="widget/gallery/gallery.html"></fis:widget>
+
+                <fis:widget name="widget/contact/contact.html"></fis:widget>
+
+              </div>
+            </div><!-- end of scroll -->
+          </div>
+      </div> <!-- end of content -->
+  </div>
+
+  <!-- 加载组件及对应依赖的js和css -->
+  <fis:widget name="widget/footer/footer.html"></fis:widget>
+  
+
+  <!-- 收集style片段以便在顶部输出,style标签可选 -->
+  <fis:style>
+  <style type="text/css"> 
+    footer{
+       margin: *;
+    }
+  </style>
+  </fis:style>
+
+  <!-- 收集script片段并分析其依赖。
+    如果不想改变内嵌js的位置可以不用php包裹，但注意此时可能modjs还没加载 -->
+  <fis:script>
+    <script type="text/javascript">
+      require.async(["widget/scroll/scroll"],function(scroll){
+        scroll.init();
+      });
+    </script>
+  </fis:script>
+
+
+  <!-- 您也可以通过注释在html中声明依赖 -->
+  <!--
+    @require "widget/footer/test.css"
+  -->
+  
+
+  <!-- js输出位置，放在底部加快页面解析 -->
+  <!--[FIS_JS_SCRIPT_HOOK]-->
+
+  
+
+</body>
+</html>

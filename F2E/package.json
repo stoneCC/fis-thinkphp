@@ -1,0 +1,18 @@
+{
+  "name": "fis3-thinkphp",
+  "version": "0.0.1",
+  "description": "fis3-thinkphp DEMO",
+  "dependencies": {
+    "fis3-hook-module": "*"
+  },
+  "keywords": [
+    "fis3",
+    "thinkphp",
+    "fis-thinkphp",
+    "fis3-thinkphp"
+  ],
+  "author": {
+    "name": "yf1983321@sina.com"
+  },
+  "license": "BSD"
+}

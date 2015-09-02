@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Application/Common/Behavior/Fis_template_filter_Behavior.class.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Application/Common/Behavior/Fis_view_begin_Behavior.class.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Application/Common/Behavior/Fis_view_end_Behavior.class.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Application/Common/Behavior/Fis_view_filter_Behavior.class.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Application/Common/Behavior/Fis_view_parse_Behavior.class.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Application/Common/Conf/tags.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Application/Home/View/Index/inner1.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Application/Home/View/Index/inner2.html" charset="UTF-8" />
+  </component>
+</project>

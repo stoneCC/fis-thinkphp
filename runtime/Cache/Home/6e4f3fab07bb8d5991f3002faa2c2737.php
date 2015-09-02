@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>./Application/Home/View/Public/widget/footer/footer.html
