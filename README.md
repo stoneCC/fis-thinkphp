@@ -3,12 +3,12 @@
 这是一个fis3在thinkphp默认的模板系统上的解决方案。
 
 ##让我们在最短的时间内让它跑起来
-> 1.安装node  +    fis3
-> 2.安装wamp或者xampp，或者其他的服务器软件
-> 3.配置一个网站，把网站根目录指到 xxxx/www.thinkphp.com
-> 4.用cmd，cd到 xxxx/www.thinkphp.com/F2E
-> 5.执行fis3 release -d xxxx/www.thinkphp.com//Application/Home/View
-> 6.在浏览器浏览你的网站吧
+* 1.安装node  +    fis3
+* 2.安装wamp或者xampp，或者其他的服务器软件
+* 3.配置一个网站，把网站根目录指到 xxxx/www.thinkphp.com
+* 4.用cmd，cd到 xxxx/www.thinkphp.com/F2E
+* 5.执行fis3 release -d xxxx/www.thinkphp.com//Application/Home/View
+* 6.在浏览器浏览你的网站吧
 
 ##解说
 > F2E是我们的开发目录，包含了我们的页面及相关的模块，每一个模块都被放置在一个单独的文件夹中（包含html，js，css，images，etc)，这基本就是fis3的大体流程了。
